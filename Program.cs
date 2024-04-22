@@ -9,7 +9,9 @@ AlinAccount.AddMoney(50);
 AlinAccount.TakeOutMoney(4300);
 
 AlinSavings.AddMoney(50);
+AlinSavings.TakeOutMoney(3);
 
+AlinInvestment.AddMoney(5);
 AlinInvestment.TakeOutMoney(20);
 
 Console.WriteLine(AlinAccount.ToString());
